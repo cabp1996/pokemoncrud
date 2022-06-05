@@ -10,7 +10,7 @@ export const Header = () => {
 
   useEffect(() => {
     dispatch(searchPokemon(filter));
-  }, [filter]);
+  }, [filter, dispatch]);
 
   const handleChangeSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFilter(e.target.value);
