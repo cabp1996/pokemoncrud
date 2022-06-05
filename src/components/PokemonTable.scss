@@ -1,0 +1,39 @@
+.pokemon-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+
+  td,
+  th {
+    border: 1px solid grey;
+    text-align: center;
+  }
+
+  th {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+  }
+
+  img {
+    height: 50px;
+  }
+
+  .btn-icon {
+    background-color: white;
+    border: none;
+    color: var(--main-color);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+  }
+
+  .td-actions {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+  }
+}

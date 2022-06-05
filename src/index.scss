@@ -1,0 +1,45 @@
+.main-container {
+  margin: 2rem 3rem;
+}
+
+:root {
+  --main-color: #6658f6;
+}
+
+.main-button {
+  background-color: var(--main-color);
+  border-radius: 4px;
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  outline: none;
+  padding: 0.5rem 1rem;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.form-input {
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: 1px solid gray;
+  padding: 0.5rem 1rem;
+
+  &:focus {
+    outline: 2px solid var(--main-color);
+  }
+}
+
+.mt-24 {
+  margin-top: 1.5rem;
+}
+
+.mr-8 {
+  margin-right: 0.5rem;
+}

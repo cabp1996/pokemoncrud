@@ -1,0 +1,40 @@
+.form-container {
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1.5rem;
+  padding: 1rem 4rem;
+
+  h4 {
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 48px;
+    row-gap: 48px;
+  }
+
+  .form-control {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 24px;
+    align-items: center;
+
+    .range-input {
+      //range input
+    }
+  }
+
+  .buttons-container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+}

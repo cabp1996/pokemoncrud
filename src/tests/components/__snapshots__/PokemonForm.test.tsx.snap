@@ -1,0 +1,782 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonForm tests should match snapshot when theres no pokemon to update 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="form-container"
+      >
+        <div
+          class="title"
+        >
+          <h4>
+            Nuevo pokemon
+          </h4>
+        </div>
+        <form>
+          <div
+            class="form-grid"
+          >
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputName"
+              >
+                Nombre:
+              </label>
+              <input
+                class="form-input"
+                id="inputName"
+                name="name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputAttack"
+              >
+                Ataque:
+              </label>
+              <input
+                class="range-input"
+                id="inputAttack"
+                max="100"
+                min="0"
+                name="attack"
+                type="range"
+                value="0"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputImage"
+              >
+                Imagen:
+              </label>
+              <input
+                class="form-input"
+                id="inputImage"
+                name="image"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputDefense"
+              >
+                Defensa:
+              </label>
+              <input
+                class="range-input"
+                id="inputDefense"
+                max="100"
+                min="0"
+                name="defense"
+                type="range"
+                value="0"
+              />
+            </div>
+          </div>
+          <div
+            class="buttons-container"
+          >
+            <button
+              class="main-button mr-8"
+              disabled=""
+              type="submit"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-floppy-o"
+              />
+               Guardar
+            </button>
+            <button
+              class="main-button"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-times"
+              />
+               Cancelar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div>
+      <div
+        class="form-container"
+      >
+        <div
+          class="title"
+        >
+          <h4>
+            Editar pokemon
+          </h4>
+        </div>
+        <form>
+          <div
+            class="form-grid"
+          >
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputName"
+              >
+                Nombre:
+              </label>
+              <input
+                class="form-input"
+                id="inputName"
+                name="name"
+                type="text"
+                value="name1"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputAttack"
+              >
+                Ataque:
+              </label>
+              <input
+                class="range-input"
+                id="inputAttack"
+                max="100"
+                min="0"
+                name="attack"
+                type="range"
+                value="50"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputImage"
+              >
+                Imagen:
+              </label>
+              <input
+                class="form-input"
+                id="inputImage"
+                name="image"
+                type="text"
+                value="image1"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputDefense"
+              >
+                Defensa:
+              </label>
+              <input
+                class="range-input"
+                id="inputDefense"
+                max="100"
+                min="0"
+                name="defense"
+                type="range"
+                value="50"
+              />
+            </div>
+          </div>
+          <div
+            class="buttons-container"
+          >
+            <button
+              class="main-button mr-8"
+              type="submit"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-floppy-o"
+              />
+               Guardar
+            </button>
+            <button
+              class="main-button"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-times"
+              />
+               Cancelar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="form-container"
+    >
+      <div
+        class="title"
+      >
+        <h4>
+          Nuevo pokemon
+        </h4>
+      </div>
+      <form>
+        <div
+          class="form-grid"
+        >
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputName"
+            >
+              Nombre:
+            </label>
+            <input
+              class="form-input"
+              id="inputName"
+              name="name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputAttack"
+            >
+              Ataque:
+            </label>
+            <input
+              class="range-input"
+              id="inputAttack"
+              max="100"
+              min="0"
+              name="attack"
+              type="range"
+              value="0"
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputImage"
+            >
+              Imagen:
+            </label>
+            <input
+              class="form-input"
+              id="inputImage"
+              name="image"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputDefense"
+            >
+              Defensa:
+            </label>
+            <input
+              class="range-input"
+              id="inputDefense"
+              max="100"
+              min="0"
+              name="defense"
+              type="range"
+              value="0"
+            />
+          </div>
+        </div>
+        <div
+          class="buttons-container"
+        >
+          <button
+            class="main-button mr-8"
+            disabled=""
+            type="submit"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-floppy-o"
+            />
+             Guardar
+          </button>
+          <button
+            class="main-button"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-times"
+            />
+             Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`PokemonForm tests should match snapshot when theres pokemon to update 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="form-container"
+      >
+        <div
+          class="title"
+        >
+          <h4>
+            Nuevo pokemon
+          </h4>
+        </div>
+        <form>
+          <div
+            class="form-grid"
+          >
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputName"
+              >
+                Nombre:
+              </label>
+              <input
+                class="form-input"
+                id="inputName"
+                name="name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputAttack"
+              >
+                Ataque:
+              </label>
+              <input
+                class="range-input"
+                id="inputAttack"
+                max="100"
+                min="0"
+                name="attack"
+                type="range"
+                value="0"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputImage"
+              >
+                Imagen:
+              </label>
+              <input
+                class="form-input"
+                id="inputImage"
+                name="image"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputDefense"
+              >
+                Defensa:
+              </label>
+              <input
+                class="range-input"
+                id="inputDefense"
+                max="100"
+                min="0"
+                name="defense"
+                type="range"
+                value="0"
+              />
+            </div>
+          </div>
+          <div
+            class="buttons-container"
+          >
+            <button
+              class="main-button mr-8"
+              disabled=""
+              type="submit"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-floppy-o"
+              />
+               Guardar
+            </button>
+            <button
+              class="main-button"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-times"
+              />
+               Cancelar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div>
+      <div
+        class="form-container"
+      >
+        <div
+          class="title"
+        >
+          <h4>
+            Editar pokemon
+          </h4>
+        </div>
+        <form>
+          <div
+            class="form-grid"
+          >
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputName"
+              >
+                Nombre:
+              </label>
+              <input
+                class="form-input"
+                id="inputName"
+                name="name"
+                type="text"
+                value="name1"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputAttack"
+              >
+                Ataque:
+              </label>
+              <input
+                class="range-input"
+                id="inputAttack"
+                max="100"
+                min="0"
+                name="attack"
+                type="range"
+                value="50"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputImage"
+              >
+                Imagen:
+              </label>
+              <input
+                class="form-input"
+                id="inputImage"
+                name="image"
+                type="text"
+                value="image1"
+              />
+            </div>
+            <div
+              class="form-control"
+            >
+              <label
+                for="inputDefense"
+              >
+                Defensa:
+              </label>
+              <input
+                class="range-input"
+                id="inputDefense"
+                max="100"
+                min="0"
+                name="defense"
+                type="range"
+                value="50"
+              />
+            </div>
+          </div>
+          <div
+            class="buttons-container"
+          >
+            <button
+              class="main-button mr-8"
+              type="submit"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-floppy-o"
+              />
+               Guardar
+            </button>
+            <button
+              class="main-button"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-times"
+              />
+               Cancelar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="form-container"
+    >
+      <div
+        class="title"
+      >
+        <h4>
+          Editar pokemon
+        </h4>
+      </div>
+      <form>
+        <div
+          class="form-grid"
+        >
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputName"
+            >
+              Nombre:
+            </label>
+            <input
+              class="form-input"
+              id="inputName"
+              name="name"
+              type="text"
+              value="name1"
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputAttack"
+            >
+              Ataque:
+            </label>
+            <input
+              class="range-input"
+              id="inputAttack"
+              max="100"
+              min="0"
+              name="attack"
+              type="range"
+              value="50"
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputImage"
+            >
+              Imagen:
+            </label>
+            <input
+              class="form-input"
+              id="inputImage"
+              name="image"
+              type="text"
+              value="image1"
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="inputDefense"
+            >
+              Defensa:
+            </label>
+            <input
+              class="range-input"
+              id="inputDefense"
+              max="100"
+              min="0"
+              name="defense"
+              type="range"
+              value="50"
+            />
+          </div>
+        </div>
+        <div
+          class="buttons-container"
+        >
+          <button
+            class="main-button mr-8"
+            type="submit"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-floppy-o"
+            />
+             Guardar
+          </button>
+          <button
+            class="main-button"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-times"
+            />
+             Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

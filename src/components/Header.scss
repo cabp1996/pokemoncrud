@@ -1,0 +1,19 @@
+.search-bar-container {
+  display: flex;
+  justify-content: space-between;
+
+  .search-input {
+    position: relative;
+
+    svg {
+      position: absolute;
+      bottom: -1;
+      left: 50;
+    }
+
+    input {
+      box-sizing: border-box;
+      padding-left: 30px !important;
+    }
+  }
+}
