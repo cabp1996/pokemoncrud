@@ -59,8 +59,7 @@ describe("PokemonForm tests", () => {
       "form"
     ) as HTMLFormElement;
     form.submit();
-    waitFor(() => {
-      expect(storeToCreate.dispatch).toHaveBeenCalled();
-    });
+
+    expect(storeToUpdate.dispatch).toHaveBeenCalled();
   });
 });

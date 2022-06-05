@@ -14,26 +14,6 @@ Object {
         <div
           class="search-input"
         >
-          <svg
-            fill="none"
-            height="24"
-            stroke="grey"
-            stroke-width="1"
-            viewBox="0 0 24 24"
-            width="24"
-          >
-            <circle
-              cx="11"
-              cy="11"
-              r="8"
-            />
-            <line
-              x1="21"
-              x2="16.65"
-              y1="21"
-              y2="16.65"
-            />
-          </svg>
           <input
             class="form-input"
             name="filter"
@@ -64,26 +44,6 @@ Object {
       <div
         class="search-input"
       >
-        <svg
-          fill="none"
-          height="24"
-          stroke="grey"
-          stroke-width="1"
-          viewBox="0 0 24 24"
-          width="24"
-        >
-          <circle
-            cx="11"
-            cy="11"
-            r="8"
-          />
-          <line
-            x1="21"
-            x2="16.65"
-            y1="21"
-            y2="16.65"
-          />
-        </svg>
         <input
           class="form-input"
           name="filter"
